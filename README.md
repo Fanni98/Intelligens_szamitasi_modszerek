@@ -1,4 +1,4 @@
-🐢 Intelligens_szamitasi_modszerek feladat 🐢  
+🐢 Intelligens számítási módszerek feladat 🐢  
 A két teknős követi egymást, sebességük függ a távolságtól.  
 
 source /opt/ros/foxy/setup.bash  
