@@ -51,34 +51,35 @@ class FrameListener(Node):
 
                 msg = Twist()
 
-                turn =   math.atan2(trans.transform.translation.y,trans.transform.translation.x)
+                #turn = math.atan2(trans.transform.translation.y,trans.transform.translation.x)
                 distance = math.sqrt(trans.transform.translation.x ** 2 +trans.transform.translation.y ** 2)
-
+                msg.angular.z = math.atan2(trans.transform.translation.y,trans.transform.translation.x)
                 #tavolsag alapjan valtozo sebesseg
                 if distance > 0.1:
                     scale_forward_speed = 0.1
-                    scale_turn_speed = 0.1
+                    #scale_turn_speed = 0.1
                     msg.linear.x = scale_forward_speed*distance
-                    msg.angular.z = scale_turn_speed*turn
+                    #msg.angular.z = scale_turn_speed*turn
                 if distance > 0.2:
                     scale_forward_speed = 0.3
-                    scale_turn_speed = 0.3
+                    #scale_turn_speed = 0.3
                     msg.linear.x = scale_forward_speed*distance
-                    msg.angular.z = scale_turn_speed*turn
+                    #msg.angular.z = scale_turn_speed*turn
                 if distance > 0.3:
                     scale_forward_speed = 0.7
-                    scale_turn_speed = 0.7
+                    #scale_turn_speed = 0.7
                     msg.linear.x = scale_forward_speed*distance
+                    #msg.angular.z = scale_turn_speed*turn
                 if distance > 0.4:
                     scale_forward_speed = 0.9
-                    scale_turn_speed = 0.7
+                    #scale_turn_speed = 0.7
                     msg.linear.x = scale_forward_speed*distance
-                    msg.angular.z = scale_turn_speed*turn
+                    #msg.angular.z = scale_turn_speed*turn
                 else:
                     scale_forward_speed = 1.0
-                    scale_turn_speed = 1.0
+                    #scale_turn_speed = 1.0
                     msg.linear.x = scale_forward_speed*distance
-                    msg.angular.z = scale_turn_speed*turn
+                    #msg.angular.z = scale_turn_speed*turn
 
                 self.publisher.publish(msg)
             else:

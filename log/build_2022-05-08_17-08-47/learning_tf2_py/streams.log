@@ -1,0 +1,25 @@
+[2.820s] Invoking command in '/home/user/dev_ws/src/learning_tf2_py': PYTHONPATH=/home/user/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/user/dev_ws/build/learning_tf2_py/build install --prefix /home/user/dev_ws/install/learning_tf2_py --record /home/user/dev_ws/build/learning_tf2_py/install.log --single-version-externally-managed
+[3.716s] running egg_info
+[3.727s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[3.729s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[3.731s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[3.732s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[3.735s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[3.900s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[3.904s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[3.913s] running build
+[3.913s] running build_py
+[3.914s] copying learning_tf2_py/turtle_tf2_listener.py -> /home/user/dev_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[3.915s] running install
+[3.925s] running install_lib
+[3.927s] copying /home/user/dev_ws/build/learning_tf2_py/build/lib/learning_tf2_py/turtle_tf2_listener.py -> /home/user/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[3.931s] byte-compiling /home/user/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-38.pyc
+[3.945s] running install_data
+[3.947s] running install_egg_info
+[3.952s] removing '/home/user/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info' (and everything under it)
+[3.996s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/user/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[3.996s] running install_scripts
+[4.053s] Installing turtle_tf2_broadcaster script to /home/user/dev_ws/install/learning_tf2_py/lib/learning_tf2_py
+[4.071s] Installing turtle_tf2_listener script to /home/user/dev_ws/install/learning_tf2_py/lib/learning_tf2_py
+[4.073s] writing list of installed files to '/home/user/dev_ws/build/learning_tf2_py/install.log'
+[4.208s] Invoked command in '/home/user/dev_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/user/dev_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/user/dev_ws/build/learning_tf2_py/build install --prefix /home/user/dev_ws/install/learning_tf2_py --record /home/user/dev_ws/build/learning_tf2_py/install.log --single-version-externally-managed
